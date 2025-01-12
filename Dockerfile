@@ -7,7 +7,8 @@ LABEL maintainer="NekoRush" \
     name="neko-ariang" \
     description="Aria2 downloader and AriaNg webui Docker image based on Alpine Linux" \
     aria2.version=$ARIA_VERSION \
-    ariang.version=$ARIANG_VERSION
+    ariang.version=$ARIANG_VERSION \
+    url="https://github.com/Statrue/neko-ariang-docker"
 
 RUN apk update && apk add --no-cache --update \
     aria2 \
